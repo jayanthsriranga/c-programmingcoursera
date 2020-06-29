@@ -2,7 +2,7 @@
 #include<stdlib.h>
 size_t maxSeq(int * array, size_t n){
   int count=0;
-  int maxcount=0;
+  int maxcount=1;
   if(n==1){
     return maxcount=1;
   }
